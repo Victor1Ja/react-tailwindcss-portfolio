@@ -10,6 +10,6 @@ This template was created by [Reed Barger](https://www.freecodecamp.org/news/aut
 
 Thanks Reed for the great article!
 
-## Personalization
+## What I changed
 
 TODO - add details of what i changed LOL

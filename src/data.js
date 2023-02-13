@@ -58,3 +58,20 @@ export const skills = [
   "GraphQL",
   "Material UI",
 ];
+export const about = {
+  title: "Hi, I'm Victor",
+  shortDescription: "I'm a full stack web developer",
+  longDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+  buttons: [
+    {
+      text: "Contact Me",
+      value: "#contact"
+
+    },
+    {
+      text: "See my past work",
+      value: "#projects"
+    }
+  ]
+
+}
