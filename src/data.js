@@ -99,3 +99,9 @@ export const navBar = {
     value: '#contact'
   }
 };
+
+export const contact = {
+  title: 'Contact Me',
+  description:
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?'
+};
