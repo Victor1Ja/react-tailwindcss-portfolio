@@ -1,8 +1,10 @@
-import React from "react";
-import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
-import { testimonials } from "../data";
+import React, { useContext } from 'react';
+import { TerminalIcon, UsersIcon } from '@heroicons/react/solid';
+import { DataContext } from '../context/DataContext';
 
 export default function Testimonials() {
+  const { data } = useContext(DataContext);
+  const { testimonials } = data;
   return (
     <section id="testimonials">
       <div className="container px-5 py-10 mx-auto text-center">
@@ -11,7 +13,7 @@ export default function Testimonials() {
           Client Testimonials
         </h1>
         <div className="flex flex-wrap m-4">
-          {testimonials.map((testimonial) => (
+          {testimonials.map(testimonial => (
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
                 <TerminalIcon className="block w-8 text-gray-500 mb-4" />

@@ -1,0 +1,79 @@
+{
+    "projects": {
+        "title": "Projects",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "items": [
+            {
+                "title": "Project 1",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+                "image": "https://images.unsplash.com/photo-1610398988881-8b8f2b2b2f1a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "Project 2",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+                "image": "https://images.unsplash.com/photo-1610398988881-8b8f2b2b2f1a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "Project 3",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+                "image": "https://images.unsplash.com/photo-1610398988881-8b8f2b2b2f1a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+                "url": "https://www.google.com"
+            }
+        ]
+    },
+    "testimonials": [],
+    "skills": {
+        "title": "Skills & Technologies",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "items": [
+            "JavaScript",
+            "React",
+            "Next.js",
+            "Node",
+            "GraphQL",
+            "Material UI"
+        ]
+    },
+    "about": {
+        "title": "Hi, I'm Victor",
+        "shortDescription": "I'm a full stack web developer",
+        "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "buttons": [
+            {
+                "text": "Contact Me",
+                "value": "#contact"
+            },
+            {
+                "text": "See my past work",
+                "value": "#projects"
+            }
+        ]
+    },
+    "navBar": {
+        "title": "Victor López",
+        "tabs": [
+            {
+                "text": "Past Work",
+                "value": "#projects"
+            },
+            {
+                "text": "About Me",
+                "value": "#about"
+            },
+            {
+                "text": "Skills",
+                "value": "#skills"
+            }
+        ],
+        "finalTab": {
+            "text": "Hire Me",
+            "value": "#contact"
+        }
+    },
+    "contact": {
+        "title": "Contact Me",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?"
+    }
+}

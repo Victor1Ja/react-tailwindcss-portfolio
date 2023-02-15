@@ -1,8 +1,11 @@
 import { ArrowRightIcon } from '@heroicons/react/solid';
-import React from 'react';
-import { navBar } from '../data';
+import React, { useContext } from 'react';
+import { DataContext } from '../context/DataContext';
 
 export default function Navbar() {
+  const { data } = useContext(DataContext);
+  const { navBar } = data;
+
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">

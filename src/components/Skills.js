@@ -1,8 +1,9 @@
 import { BadgeCheckIcon, ChipIcon } from '@heroicons/react/solid';
-import React from 'react';
-import { skills } from '../data';
-
+import React, { useContext } from 'react';
+import { DataContext } from '../context/DataContext';
 export default function Skills() {
+  const { data } = useContext(DataContext);
+  const { skills } = data;
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">

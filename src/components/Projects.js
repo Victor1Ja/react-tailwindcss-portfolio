@@ -1,8 +1,10 @@
 import { CodeIcon } from '@heroicons/react/solid';
-import React from 'react';
-import { projects } from '../data';
+import React, { useContext } from 'react';
+import { DataContext } from '../context/DataContext';
 
 export default function Projects() {
+  const { data } = useContext(DataContext);
+  const { projects } = data;
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">

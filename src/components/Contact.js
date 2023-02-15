@@ -1,8 +1,9 @@
-import React from 'react';
-
-import { contact } from '../data';
+import React, { useContext } from 'react';
+import { DataContext } from '../context/DataContext';
 
 export default function Contact() {
+  const { data } = useContext(DataContext);
+  const { contact } = data;
   const [name, setName] = React.useState('');
   const [email, setEmail] = React.useState('');
   const [message, setMessage] = React.useState('');

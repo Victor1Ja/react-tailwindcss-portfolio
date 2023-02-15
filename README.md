@@ -10,13 +10,8 @@ This template was created by [Reed Barger](https://www.freecodecamp.org/news/aut
 
 Thanks Reed for the great article!
 
-## What I changed
-
-TODO - add details of what i changed LOL
-
 ## TODO
 
 - Add Work experience component
 - Add Certifications component
 - Add Social Networks component
-- Load data from an external source (e.g. JSON file)
